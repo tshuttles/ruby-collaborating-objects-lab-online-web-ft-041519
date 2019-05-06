@@ -7,13 +7,6 @@ class Song
     @@all << self 
   end 
   
-  def name
-    @name 
-  end 
-  
-  def artist
-    @artist 
-  end 
   
   def self.new_by_filename(filename)
     song_name = filename.split(" - ")[1]
